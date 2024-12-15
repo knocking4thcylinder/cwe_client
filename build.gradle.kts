@@ -27,7 +27,7 @@ application {
 group = "com.cwe_client.app"
 version = "1.0-SNAPSHOT"
 description = "my-app"
-java.sourceCompatibility = JavaVersion.VERSION_1_8
+java.sourceCompatibility = JavaVersion.VERSION_21
 
 publishing {
     publications.create<MavenPublication>("maven") {
